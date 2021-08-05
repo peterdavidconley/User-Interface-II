@@ -52,6 +52,7 @@ padding: 0;
 margin: 0;
 max-width: 100%;
 border: solid gray 1px;
+
 }
 
 /* General Element Styling*/
@@ -67,10 +68,24 @@ background-color: #FBFFFB;
 color: #4f4f4f;
 }
 
+h1 {
+    font-size: 5em;    
+}
+
+h2 {
+    font-size: 4em;    
+}
+
+h3 {
+    font-size: 3em;    
+}
+
 /*Helper Classes*/
-.bgimg{
+
+.bgimg {
     background-size:cover;
     background-repeat: no-repeat;
+}
 
 /*Header*/
 nav {
@@ -92,14 +107,27 @@ nav {
     display:flex;
     justify-content: space-evenly;
     align-items: center;
+    
+}
+
+.logo h3 {
+    text-align: center;
+}
+
+.links a {
+    border-radius: 10px;
+    background-color: lavender;
+    text-align: center;
+    width: 10%;
 }
 
 
 /* My Project - Top Section Style*/
 
 .my-projects {
-    background-image: url("../Images/Header-Image.jpeg");    
-    background-position: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* 6 Images Section Styling*/
@@ -107,4 +135,7 @@ nav {
 #six-images {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
