@@ -73,18 +73,20 @@ color: #4f4f4f;
     background-repeat: no-repeat;
 
 /*Header*/
-nav{
+nav {
     display:flex;
     justify-content:space-between;
     position:fixed;
     top:0;
     width:100%;
-    background-color:rgba(255, 255, 255, 0.8);
-    z-index: 999;
 }
+
 .logo{
-    width:5%;
+
+    width:30%;
+
 }
+
 .links{
     width:50%;
     display:flex;
@@ -98,4 +100,11 @@ nav{
 .my-projects {
     background-image: url("../Images/Header-Image.jpeg");    
     background-position: center;
+}
+
+/* 6 Images Section Styling*/
+
+#six-images {
+    display: flex;
+    flex-wrap: wrap;
 }
