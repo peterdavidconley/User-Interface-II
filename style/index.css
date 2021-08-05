@@ -64,20 +64,35 @@ font-size: 62.5%;
 body {
 font-size: 1.6rem;
 line-height: 1.5;
-background-color: #FBFFFB;
-color: #4f4f4f;
+background-color: #002366;
+color: #FFDAB9;
 }
 
 h1 {
     font-size: 5em;    
+    font-family: Montserrat;
 }
 
 h2 {
     font-size: 4em;    
+    font-family: Montserrat;
 }
 
 h3 {
-    font-size: 3em;    
+    font-size: 3em;  
+    font-family: Montserrat;  
+}
+
+p {
+    font-family: open-sans;
+}
+
+button {
+    background-color: #FFDAB9;
+    text-align: center;
+    color: white;
+    padding: 2%;
+    border-radius: 10px;
 }
 
 /*Helper Classes*/
@@ -94,7 +109,7 @@ nav {
     position:fixed;
     top:0;
     width:100%;
-    background-color: lightgrey;
+    background-color: #0F52BA;
 }
 
 .logo{
@@ -117,8 +132,9 @@ nav {
 
 .links a {
     border-radius: 10px;
-    background-color: lavender;
+    background-color: #FA8072;
     text-align: center;
+    color: white;
     width: 10%;
 }
 
@@ -126,11 +142,11 @@ nav {
 /* My Project - Top Section Style*/
 
 #my-projects {
-
-    display: flex;
-    justify-content: center;
-     align-items: center;
-     margin-top: 10%;
+     padding: 15%;
+     background-image: url("../Images/Header-Image.jpeg");
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position: bottom;
 }
 
 /* About Me Section */
@@ -138,6 +154,8 @@ nav {
 #about-me {
     margin: 10% 0;
     display: flex;
+    text-align: center;
+    margin: 0 15% 5%;
 
 }
 
@@ -159,5 +177,6 @@ nav {
 /*Footer Styling*/
 
 footer {
-    background-color: lightgrey;
+    background-color: #FA8072;
+    color: white;
 }
