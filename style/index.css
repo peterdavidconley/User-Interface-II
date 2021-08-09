@@ -218,16 +218,36 @@ footer a {
     nav {
         justify-content: center;
         flex-wrap: wrap;
+        background: #002366;
 
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin: 0;
     }
 
     .links {
         width: 100%; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .links a {
+        width: 20%; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 40%;
     }
 
     nav .logo {
         width: 100%;
         font-size: 2rem;  
+        
     }
 
     #six-images div {
@@ -248,6 +268,15 @@ footer a {
     h3 {
         font-size: 1.5em;  
         font-family: Arial;  
+    }
+
+    footer a {
+        display: flex;
+        justify-content: center;
+    }
+
+    #my-projects {
+        margin-top: 35%;
     }
 
 }
