@@ -197,3 +197,13 @@ footer button {
 footer a {
     font-size: 2rem;    
 }
+
+/* Media Queries*/
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 500px) {
+    
+}
