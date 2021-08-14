@@ -63,8 +63,8 @@ font-size: 62.5%;
 body {
 font-size: 1.6rem;
 line-height: 1.5;
-background-color: #002366;
-color: #FFDAB9;
+background-color: #fff;
+color: #403e39;
 }
 
 h1 {
@@ -196,4 +196,87 @@ footer button {
 
 footer a {
     font-size: 2rem;    
+}
+
+/* Media Queries*/
+
+@media (max-width: 800px) {
+
+    .links{
+        width:65%;
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.5rem;
+        margin-right: 1%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        background: #002366;
+
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .links {
+        width: 100%; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .links a {
+        width: 20%; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 40%;
+    }
+
+    nav .logo {
+        width: 100%;
+        font-size: 2rem;  
+        
+    }
+
+    #six-images div {
+        width: 50%;
+        padding: 3%;
+    }
+
+    h1 {
+        font-size: 3em;    
+        font-family: Arial;
+    }
+    
+    h2 {
+        font-size: 2em;    
+        font-family: Arial;
+    }
+    
+    h3 {
+        font-size: 1.5em;  
+        font-family: Arial;  
+    }
+
+    footer a {
+        display: flex;
+        justify-content: center;
+    }
+
+    #my-projects {
+        margin-top: 35%;
+    }
+
 }
